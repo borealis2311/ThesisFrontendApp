@@ -1,0 +1,4 @@
+.cart-items {
+    height: 500px; /* Hoặc bất kỳ giá trị nào phù hợp với thiết kế của bạn */
+    overflow-y: auto;
+  }
