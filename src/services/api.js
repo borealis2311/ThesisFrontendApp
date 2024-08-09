@@ -14,4 +14,3 @@ export const orderSuccess = (data)=>Http.post(`/orderSuccess?session_id=${data}`
 export const history = (config)=>Http.get(`/history?${objectToQueryString(config)}`);
 export const detailsCart = (id, config)=>Http.get(`/details/${id}`, config);
 export const historyComment = (config)=>Http.get(`/historyComment?${objectToQueryString(config)}`);
-export const apiRefreshToken = (config)=>Http.get("/refreshToken", config);
